@@ -1,2 +1,2 @@
 # little-lemon-app
-little lemon website application with reatjs
+little lemon website application with reactjs
