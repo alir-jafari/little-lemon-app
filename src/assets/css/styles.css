@@ -1,0 +1,412 @@
+#logo ,.logo {
+    width: 120px;
+} 
+
+li.nav-item {
+    font-size: 1.2rem;
+    font-weight: bold; 
+    padding: 0.1rem 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+li.nav-item :hover {
+    box-shadow: inset 100px 0 0 0 #495e57;
+    color: white;  
+}
+
+.right {
+    text-align: right;
+}
+
+.action-button {
+    text-decoration: none;
+    background-color: #f4ce14;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-family: "Karla";
+    font-size: 1.2rem;
+    border: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.action-button > a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+button.action-button:hover  {
+    box-shadow: inset 250px 0 0 0 #495e57;
+    color: white;  
+}
+
+.featured{
+    text-align: center;
+}
+
+#featured-img {
+    
+    width: 60%;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+.main {
+    /* background-color: #495e57; */
+    background-color: rgb(42, 54, 50);
+    padding-top: 1rem;
+    margin-top: 1em;
+    width: 100%;
+    background-image: url(../images/bgfoodicon1.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.main-content {
+    padding-left: 5em;
+    text-align: left;
+}
+
+.main-content h1 {
+    color: #f4ce14;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-content h2 {
+    color: #fff;
+    /* font-size: 30px; */
+    /* margin-top: -1em; */
+}
+
+.main-content p {
+    
+    color: #fff;
+    font-family: Karla,sans-serif;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+p.card-text {
+    font-size: 1.1rem;
+}
+
+#button {
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    height: 3em;
+    width: 12em;
+    left: calc( 3em);
+    top: calc(70% - 2em);
+    transform-origin: 50% 5em;
+    animation: wiggle 4s linear infinite;
+}
+
+#button:hover {
+    box-shadow: inset 12em 0 0 0 #495e57;
+    color: white; 
+}
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+.testimonials {
+    background-color: #495e57;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    padding-top: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.testimonials .card{
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px #f4ce14;
+}
+@media(max-width:767px){
+    .card{
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw;
+    }
+}
+
+.testimonials  img{
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto;
+}
+
+.col-md-4{
+    padding:0  0.5rem;
+}
+
+.testimonials .card-title{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+.testimonials .card-text{
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem;
+}
+.testimonials .footer{
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+}
+#name{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#position{
+    font-size: 0.7rem;
+}
+
+.testimonials a{
+    color: #f4ce14;
+    font-weight: bold;
+    text-decoration: none;
+}
+.testimonials a:hover{
+    color: #495e57;
+}
+.testimonial-header {
+    color: #f4ce14;
+    font-family: Markazi Text,serif;
+    font-size: 60px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.b-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+#restaurant {
+    width: 100%;
+}
+.reservation h1 {
+    color: #f4ce14;
+    font-family: Markazi Text,serif;
+    /* text-align: center; */
+}
+
+.reservation textarea {
+    min-height: 200px;
+    max-width: 100%;
+}
+.submit-button {
+    background-color: #f4ce14;
+    /* padding: 0.5rem 1rem 0.5rem 1rem; */
+    border-radius: 0.5rem;
+    font-family: "Karla";
+    font-size: 1.2rem;
+    border: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+button.submit-button:hover  {
+    box-shadow: inset 850px 0 0 0 #495e57;
+    color: white;  
+}
+
+.about-us {
+    background-color: #495e57;
+}
+
+.about-us h1 {
+    color: #f4ce14;
+}
+
+.about-us h2 {
+    color: white;
+}
+
+.about-us p {
+    color: white;
+    text-align: justify
+}
+
+.menu {
+    background-color: #495e57;
+}
+
+.menu img {
+    width: 80px;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
+}
+
+.special-button {
+    text-decoration: none;
+    background-color: #f4ce14;
+    color: #fff;
+}
+
+.error-element {
+    border: 1px solid red;
+}
+.error {
+    color:red;
+}
+
+.fields {
+    width: 100%;
+    margin: auto;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.confirmation-text {
+    background-image: url('../images/restaurant.jpg');
+    opacity: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #495e57;
+    color: white;
+}
+
+.fadeInUp {
+    visibility: visible; 
+    animation-delay: 0.1s; 
+    animation-name: fadeInUp;
+}
+
+.ff-secondary {
+    font-family: 'Pacifico', cursive;
+    color: #FEA116 !important;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.text-primary , .menu h6 ,.menu h1 {
+    color: #FEA116 !important;
+}
+
+.text-start {
+    text-decoration: none;
+}
+
+.myreservation {
+    background-color: #495e57;
+    color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.login {
+    text-align: center;
+}
+.login img {
+    width: 70%;
+}
+
+.user {
+    width: 70%;
+    background-color: #343a40;
+}
+
+.user-name {
+    padding-left: 10px;
+}

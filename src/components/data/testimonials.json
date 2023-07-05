@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "title" : "Lorem Ipsum!",
+        "description" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.Maecenas nec odio et ante tincidunt tempus Duis leo. Donec sodales sagittis magna",
+        "name" : "Micheal Smith",
+        "image" : "./images/image2.jpg",
+        "position" : "CEO of ",
+        "organiztion" : "Google.com"
+    },
+    {
+        "id" : 2,
+        "title" : "Lorem Ipsum!",
+        "description" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.Maecenas nec odio et ante tincidunt tempus Duis leo. Donec sodales sagittis magna",
+        "name" : "Angellia Miller",
+        "image" : "./images/image1.jpg",
+        "position" : "CEO of ",
+        "organiztion" : "Facebook.com"
+    },
+    {
+        "id" : 3,
+        "title" : "Lorem Ipsum!",
+        "description" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.Maecenas nec odio et ante tincidunt tempus Duis leo. Donec sodales sagittis magna",
+        "name" : "Christina Williams",
+        "image" : "./images/image3.jpg",
+        "position" : "UX Designer at ",
+        "organiztion" : "Youtube.com"
+    }
+
+]
